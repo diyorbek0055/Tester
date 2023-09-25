@@ -57,13 +57,13 @@ let togriJavoblar = 0;
 
 for (let i = 0; i < Savollar.length; i++) {
     const userJavobi = prompt(Savollar[i].savol + "\nVariant: " + Savollar[i].variant.join("\n"));
-
+  
+    if(userJavobi === "quit" || userJavobi === "exit"){ break; }
+    if ( userJavobi === "next"){ continue; }
     if (userJavobi === Savollar[i].javobi) {
         togriJavoblar++;} 
-        else if(userJavobi === quit || userJavobi === exit){
-            break;
-        }
-        else if ( userJavobi=== next){
+        
+    if ( userJavobi=== "next"){
             continue;
         }
 
