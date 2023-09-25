@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Gluten:wght@500&family=Inter:wght@400;500;600;700;800&family=Konkhmer+Sleokchher&family=Nunito:wght@400;500;600&family=Philosopher:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    background-color: black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+h1{
+    margin-top: 300px;
+    color: rgb(232, 192, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    font-family:Acme; 
+    font-size: 50px;
+
+
+}
+span{
+    color: crimson;
+    font-size: 80px;
+    font-family: Acme;
+
+}
