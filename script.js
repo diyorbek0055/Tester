@@ -63,7 +63,7 @@ for (let i = 0; i < Savollar.length; i++) {
     if (userJavobi === Savollar[i].javobi) {
         togriJavoblar++;} 
         
-    if ( userJavobi=== "next"){
+    if ( userJavobi === "next"){
             continue;
         }
 
