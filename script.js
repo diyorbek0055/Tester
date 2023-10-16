@@ -110,7 +110,8 @@ for (let i = 0; i < Savollar.length; i++) {
    if(null === userJavobi) break
      alert("Javob qabul qilinsinmi?");
 
-
+ 
+     
 
     //  function randArray(array) {
     //     for (let i = array.length - 1; i > 0; i--) {
